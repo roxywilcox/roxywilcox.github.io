@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src= "https://smtpjs.com/v3/smtp.js"> </script> 
+    <script type="text/javascript" src="email.js"></script> 
+    <script src="https://kit.fontawesome.com/a8dfcff32a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+  <nav class="top-nav">
+    <ul class="pages">
+      <li>
+            <a href="home.html">
+                Work
+            </a>
+        </li>
+      <li>
+        <a href="play.html">
+            Play
+        </a>
+      </li>
+      <li>
+        <a href="about.html">
+                About
+        </a>
+    </li>
+    <li>
+      <a href="contact.html">
+              Contact
+      </a>
+  </li>
+    </ul>
+  </nav>
+  <main>
+    <div class="wrapper">
+      <br>
+      <br>
+      <br>
+      <br>
+      <p class="form-intro">Want to collab on a project or hire me?</p>
+      <p class="form-caption">Fill out the form below to send me an email inquiry!</p>
+      <br>
+      <div class="form-text">
+      <!-- <form action="results.html" method="GET">  -->
+      <!-- <form action="MAILTO: roxywilcoxproducts@gmail.com" method="post" enctype="text/plain"> -->
+      <form method="post"> 
+        <div>
+          <label for="name">Name</label>
+          <input class="form-filler" type="text" name="name" id="name" placeholder="full name" required>
+        </div>
+        <br>
+        <div>
+          <label for="organization">Organization</label>
+          <input class="form-filler" type="text" name="organization" id="organization" placeholder="company, university, etc">
+        </div>
+        <br>
+        <div>
+          <label for="date">Date of Inquiry</label>
+          <input class="form-filler" type="date" name="date" id="date">
+        </div>
+        <br>
+        <div>
+          <div class="checkbox-menu">
+          Type of Inquiry
+          </div>
+          <div>
+            <label for="web-dev">Web Development</label>
+            <input type="checkbox" name="web-dev" id="web-dev" onclick="check()">
+          </div>
+          <div>
+            <label for="full-stack">Full Stack Development</label>
+            <input type="checkbox" name="full-stack" id="full-stack" onclick="check()">
+          </div>
+          <div>
+            <label for="ui-ux">UI/UX Design</label>
+            <input type="checkbox" name="ui-ux" id="ui-ux" onclick="check()">
+          </div>
+          <div>
+            <label for="theatre">Theatre Project</label>
+            <input  type="checkbox" name="theatre" id="theatre" onclick="check()">
+          </div>
+        </div>
+        <br>
+        <div>
+        <div>
+          <label for="email">Email</label>
+          <input class="form-filler" type="email" name="email" id="email" placeholder="example@gmail.com" required>
+        </div>
+        <br>
+        
+          <label for="job-description">Job Description</label>
+          <textarea class="form-filler" id="job-description" name="job-description" placeholder="client, deadline, etc" required></textarea> 
+        </div>
+        <br>
+        <button type="reset">Reset</button>
+        <!-- <button type="submit">Submit</button> -->
+        <input type="button" value="Send Email" 
+            onclick="sendEmail()" /> 
+      </form> 
+    </div>
+    </div>
+  </main>
+</body>
+</html>
