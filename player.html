@@ -1,0 +1,67 @@
+<html>
+<header>
+   <title>Music Player</title>
+   <link rel="stylesheet" type="text/css" href="ipod.css"/>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</header>
+<body>
+   <div id="screen">
+      <div class="head-bar">
+         <div id="rectangle">
+           <a href="songs.html"
+             ><button class="back-button">&#8592</button>
+           </a>
+         </div>
+       </div>
+   <div>
+      <div class="player-info-wrapper">
+         <img class="player-album-art" src="currents.jpg" alt="Currents" />
+       </div>
+      <div id= "player-song-name" class="player-song-name">
+         <p>The Less I Know The Better</p>
+      </div>
+      <div class="player-song-info">
+         <p><em>Currents</em> - Tame Impala</p>
+      </div>
+   </div>
+   <input id="song-progress" type="range" class="song-progress" value="0" min="0" max="180">
+   <div id= "start-time" class="start-time">0:00</div>
+   <div id= "end-time" class="end-time">3:00</div>
+   <div>
+      <button class="player-previous" onclick="prevSong()">
+         <span>
+            <i class="material-icons">skip_previous</i>
+         </span>
+      </button>
+      <button class="player-play" onclick="switchPlay()">
+         <span>
+            <i id=play-button class="material-icons">play_arrow</i>
+         </span>
+      </button>
+      
+      <button  class="player-next" onclick="nextSong()">
+         <span>
+            <i class="material-icons">skip_next</i>
+         </span>
+      </button>
+   </div>
+   <div>
+      <div id="vl0"></div>
+      <div id="vl1"></div>
+      <div id="vl2"></div>
+      <div id="vl3"></div>
+      <div id="vl4"></div>
+      <div id="vl5"></div>
+   </div>
+   <div class="volume-icon"><i class="material-icons">volume_down</i></div>
+   <button id="volume-down" onclick="volDown()">&mdash;</button>
+   <button id="volume-up" onclick="volUp()">+</button>
+   
+</div>
+<script src="ipod.js"></script>
+</body>
+</html>
+<!-- 
+* bg iphone img is 363x762px
+* iphone 'screen' is apprx 300x530 -->

@@ -1,0 +1,279 @@
+#rectangle {
+  width: 300px;
+  height: 45px;
+  background: #e6ccff;
+}
+
+/* 
+	Global classes 
+					*/
+body {
+  background-image: url("iphoneOL.jpg");
+  background-repeat: no-repeat;
+  font-family: Avenir, sans-serif;
+}
+
+#screen {
+  height: 530px;
+  width: 300px;
+  margin: 105px 23px;
+}
+
+.head-bar {
+  text-align: center;
+  color: white;
+  text-shadow: 1.2px 1.2px black;
+}
+
+.back-button {
+  background-color: rgb(255, 255, 188);
+  color: purple;
+  border: 2px solid pink;
+  width: 15%;
+  height: 65%;
+  margin-top: 8px;
+  margin-left: 8px;
+  float: left;
+}
+
+/* 
+	Albums 
+			*/
+
+.single-album {
+  flex: 33%;
+  width: 130;
+  height: 130px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.albums-album-wrapper {
+  display: flex;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.albums-album-art {
+  width: 130;
+  height: 130px;
+  margin-top: 10px;
+}
+
+.albums-album-name {
+  color: black;
+  position: relative;
+  font-size: 22px;
+  font-style: bold;
+  font-weight: bolder;
+}
+
+.albums-artist-name {
+  color: black;
+  font-style: italic;
+  font-size: 16px;
+  position: relative;
+}
+
+/* 
+	Songs 
+			*/
+.songs-info-wrapper {
+  display: flex;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.songs-album-art {
+  width: 130;
+  height: 130px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.songs-album-name {
+  color: black;
+  font-size: 22px;
+  font-style: bold;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+
+.songs-artist-name {
+  color: black;
+  font-style: italic;
+  font-size: 16px;
+  margin-top: 62px;
+  margin-left: -85px;
+}
+
+.songs-text-info {
+  width: 230px;
+  height: 25px;
+  border: 1px solid grey;
+  margin-bottom: 3px;
+  font-size: 16px;
+}
+
+.songs-album-year {
+  color: black;
+  font-size: 16px;
+  margin-top: 100px;
+  margin-left: -90px;
+}
+
+.songs-list {
+  margin-top: -15px;
+}
+
+/* 
+	Player 
+			*/
+.player-album-art {
+  width: 240;
+  height: 240x;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+.player-song-info {
+  margin-top: -15px;
+  text-align: center;
+  color: purple;
+}
+
+.player-song-name {
+  text-align: center;
+}
+
+.song-progress {
+  margin-top: -14px;
+  margin-left: 27px;
+  width: 240px;
+}
+
+.start-time {
+  margin-top: -9px;
+  margin-left: 20px;
+}
+
+.end-time {
+  margin-top: -20px;
+  margin-left: 250px;
+}
+
+#vl0 {
+  border: 1px solid black;
+  width: 24px;
+  height: 6px;
+  background-color: white;
+  margin-top: 40px;
+  margin-left: 46px;
+}
+#vl1 {
+  border: 1px solid black;
+  width: 24px;
+  height: 6px;
+  background-color: white;
+  margin-top: -8px;
+  margin-left: 86px;
+}
+#vl2 {
+  border: 1px solid black;
+  width: 24px;
+  height: 6px;
+  background-color: white;
+  margin-top: -8px;
+  margin-left: 126px;
+}
+#vl3 {
+  border: 1px solid black;
+  width: 24px;
+  height: 6px;
+  background-color: white;
+  margin-top: -8px;
+  margin-left: 166px;
+}
+#vl4 {
+  border: 1px solid black;
+  width: 24px;
+  height: 6px;
+  background-color: white;
+  margin-left: 206px;
+  margin-top: -8px;
+}
+#vl5 {
+  border: 1px solid black;
+  width: 24px;
+  height: 6px;
+  background-color: white;
+  margin-left: 246px;
+  margin-top: -8px;
+}
+
+#vl6 {
+  border: 1px solid black;
+  width: 24px;
+  height: 6px;
+  background-color: white;
+  margin-left: 236px;
+  margin-top: -8px;
+}
+
+#volume-down {
+  margin-left: 50px;
+  margin-top: 10px;
+  width: 80px;
+  height: 20px;
+}
+
+.volume-icon {
+  margin-left: 20px;
+  margin-top: -15px;
+}
+
+#volume-up {
+  margin-left: 185px;
+  margin-top: -20.5px;
+  width: 80px;
+  height: 20px;
+}
+
+.player-previous {
+  margin-left: 60px;
+  margin-top: -2px;
+  height: 30px;
+  width: 50px;
+}
+
+.player-play {
+  margin-left: 5px;
+  margin-top: -30px;
+  height: 30px;
+  width: 50px;
+}
+
+.player-next {
+  margin-left: 5px;
+  margin-top: -30px;
+  height: 30px;
+  width: 50px;
+}
+
+/*
+#player-time {
+  align: center;
+}
+
+#time-elapsed {
+}
+
+#time-total {
+}
+
+#start-time {
+}
+
+#end-time {
+}
+*/

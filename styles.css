@@ -1,0 +1,190 @@
+@use "@material/card";
+
+@include card.core-styles;
+
+main {
+  margin-top: 100px;
+  margin-left: 2em;
+}
+
+nav.top-nav {
+  background-color: rgb(227, 243, 253);
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  box-shadow: 0px 4px 4px #0003;
+  padding-left: 2em;
+}
+
+nav.top-nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.personal {
+  text-align: left;
+}
+
+nav.top-nav li {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-size: 20px;
+  margin: 5px;
+  display: inline-block;
+  padding: 2px;
+  user-select: none;
+  position: relative;
+}
+
+nav.top-nav li a {
+  text-decoration: none;
+  color: #0d47a1;
+}
+
+nav.top-nav li:hover {
+  text-decoration: underline;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 650px;
+}
+
+.intro {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.intro-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  text-align: left;
+}
+
+.link {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(42, 125, 177);
+}
+
+.link:hover {
+  opacity: 0.5;
+}
+
+.fab:hover {
+  opacity: 0.5;
+}
+
+.projects-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.proj-image {
+  max-width: 650px;
+  border-radius: 15px;
+  height: auto;
+}
+
+.proj-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  text-align: left;
+  font-weight: bold;
+  color: rgb(42, 125, 177);
+}
+
+.proj-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  text-align: left;
+  color: black;
+}
+
+.date {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  text-align: left;
+  color: black;
+  opacity: 0.6;
+}
+
+.comment-header {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.form-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  text-align: left;
+  color: black;
+}
+
+.form-intro {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  text-align: left;
+  color: black;
+}
+
+.checkbox-menu {
+  text-decoration: underline;
+}
+
+.chart-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.footer {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(227, 243, 253);
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  text-align: center;
+  margin-left: 0em;
+  position: relative;
+}
+
+.chart-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  text-align: left;
+}
+
+.pages {
+  text-decoration: none;
+}
+
+.form-filler {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  text-align: left;
+  color: black;
+  font-weight: bold;
+}
+
+.form-caption {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  text-align: left;
+  color: black;
+  margin-top: -15px;
+  font-style: italic;
+}
